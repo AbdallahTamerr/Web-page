@@ -1,0 +1,70 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link rel="stylesheet" href="css/styles.css" >
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page_header">
+    <nav class="navbar_menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar_list">
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main_hero">
+      <h1>Weird Facts</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Fact 1" class="your-active-class">
+      <div class="landing_container">
+        <h2>The name "bonobo" resulted from a misspelling.</h2> <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2021/03/Bonobo-2.jpg" alt= "Weird fact">
+<p>"Bonobo," the common name for apes, may sound like some sort of translation of a meaningful term, but in fact, it was the result of a typo.</p>
+<p>Researchers reputedly first found the animals in the town of Bolobo, Zaire, in the '20s, but the name of the place was misspelled "Bonobo" on the shipping crate in which the animal was placed, leading others to refer to the animal by the name, which stuck.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Fact 2">
+      <div class="landing_container">
+        <h2>Dolphins sleep with one eye open.</h2> <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2021/03/Dolphin.jpg" alt= "Weird fact">
+<p>Dolphins are known to be one of the smartest animals on the planet—possibly because they can conserve their brain power. Because they must be constantly on the lookout for predators, the marine mammals have developed a neat trick of maintaining partial consciousness even as part of their brain sleeps.
+<p>Researchers have tested whether this "half sleep" negatively impacts the animals' alertness during the day, but have found that even after five days of having their nocturnal alertness constantly tested, they've remained as alert and perceptive as ever.
+      </div>
+    </section>
+    <section id="section3" data-nav="Fact 3">
+      <div class="landing_container">
+        <h2>There's a LEGO bridge in Germany that you can walk across.</h2> <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2021/03/Lego-Bru%CC%88cke.jpg" alt= "Weird fact">
+<p>The German town of Wupperttal is home to Lego-Brücke, also known as LEGO Bridge—a bridge that looks like it's made of candy-colored LEGO bricks, providing a foot- and bikeway for those looking to cross over the street below.
+<p>Despite appearances, the bridge is not made of giant plastic bricks however, but concrete, and it was painted to look like the popular building toys by street artist Martin Heuwold.
+      </div>
+    </section>
+    <section id="section4" data-nav="Fact 4">
+      <div class="landing_container">
+        <h2>Spider webs were used as bandages in ancient times.</h2> <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2019/01/spider-web.jpg?quality=82&strip=all" alt= "Weird fact">
+<p>In ancient Greece and Rome, doctors used spider webs to make bandages for their patients. Spider webs supposedly have natural antiseptic and anti-fungal properties, which can help keep wounds clean and prevent infection. It's also said that spider webs are rich in vitamin K, which helps promote clotting.
+<p>So, next time you're out of Band-Aids, just head to your attic and grab some "webicillin."
+      </div>
+    </section>
+    <section id="section5" data-nav="Fact 5">
+      <div class="landing_container">
+        <h2>Cotton candy was invented by a dentist.</h2> <img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2018/05/Girl-Eating-Cotton-Candy.jpg?quality=82&strip=all" alt= "Weird fact">
+<p>Dentist William Morrison and confectioner John C. Wharton invented machine-spun cotton candy in 1897. It was first introduced at the 1904 World's Fair as "Fairy Floss." Then, another dentist, Josef Lascaux, reinvented the machine in 1921. He came up with the name "cotton candy," which replaced "fairy floss."</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page_footer">
+    <p>&copy Abdallah</p>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+</html>
