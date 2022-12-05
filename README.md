@@ -3,7 +3,7 @@
 
 ## Description
 
-This website is created using HTML, CSS and java script.
+This webpage is created using HTML, CSS and java script.
 
 ## Files
 
